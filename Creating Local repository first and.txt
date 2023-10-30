@@ -1,0 +1,13 @@
+Creating Local repository first and pointing to remote repository 
+
+
+
+git init
+
+git add.
+
+git commit -m "f"
+
+create  a branch in local repository
+
+git branch -M main

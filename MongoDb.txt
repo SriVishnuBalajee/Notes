@@ -1,0 +1,28 @@
+MongoDb stores the data in the form of  JSON.
+JSON is the lightest data storing format , and it is used for transmiting and storing data.
+Relational Database follows a definite structure and will have sql commands to evaluate.[ ex. Oracle,Mysql,Mssql]..
+Non Relational Database (or) NoSQL database will not have a structure and will have build-in functions to evaluate.[ex. MongoDb ]..
+
+
+*Key-Value                ------> redis           riak
+*Graph                      ------> Neo4j         hyperGraph DB
+*Document-Oriented ------> MongoDB  CouchDB
+*Column Family        ------> Cassandra  HBASE
+
+
+
+Theory of NOSQL--CAP
+Consistency
+Availability
+Partition tolerance
+
+
+Sharding of Data----->
+Distribute a single logi
+
+
+Command----->
+mongod
+mongosh---->mongoshell
+ mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.2 ----> GUI Url
+ _id: ObjectId("653a35737b5615b4b26e97cf") -----> this is the object ID which automatically generated for each rows in an incremental value.

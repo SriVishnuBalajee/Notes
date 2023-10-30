@@ -1,0 +1,10 @@
+In reactjs there are two type of components-Functional component and Class component 
+Functional components will create functional tags which will perform a specific task
+Class components will create class tag which will perform more task.
+
+ In react the form data can be stored in STATE ..
+
+Binding in React is two types ---> oneway Binding({} used here ). two way Binding()
+
+ bootstrap is for beautifying the webpage
+

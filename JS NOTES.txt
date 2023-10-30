@@ -1,0 +1,31 @@
+Javascript is object - based language
+
+Built-in objects in javascript;
+*window
+*document
+*history-BROWSING HISTORY
+*exception
+*screen
+*navigator
+*geolocation
+*localstorage
+*sessionstorage
+*cookies
+*frames
+*forms
+
+ Using Built-in object class(or) using Composite variables - to create an object in JS
+-------------------------------------------------------------------------------------------------------------------------------------
+FORM VALIDATION:
+*Form-Level Validation-validation happens only when the submit button is pressed
+*Field-Level Validation-validation will start one the user starts to typing in an element (or)tag. 
+
+-------------------------------------------------------------------------------------------------------------------------------------
+User-defined events can be created in two ways: 1.Using Event class 2.Custom Event class.
+Steps in User Events: Create the event,attach the action(or)function to the event,raise (or)start the event
+-------------------------------------------------------------------------------------------------------------------------------------
+ React-js:
+it is used to make the web pages more reactive
+the features which is not in html and css is there in reactjs
+
+

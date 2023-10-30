@@ -1,0 +1,87 @@
+Angular -it is a google product 
+angular is used to create a dynamic single webpage 
+Angular has many built in validations 
+Angular has typescripts which is used to introduce oops concept in frontend programming.
+
+
+install angularcli@latest-older version (or) for global installation install -g @angular/cli@latest 
+ng new firstangular.
+ng g c cpmonentname.
+npm start.
+
+1.Data-Binding
+{{}}--->One way binding(Model-View)
+[()]--->Two way binding(Model-View,View-Model)
+
+2.Class-Binding--->Atach a css clase to a html tags
+
+3.Event-Binding--->Attach a function(action (or)controller)  button or a html tag
+
+4.Property-Binding--->
+
+5.Attribute-Binding--->
+
+6.Style-Binding--->
+
+$event--->Represent (or) indicate Html tag on which the event has happened
+{click}--->Same as onClick in js
+
+
+Pipe are used to transform data and pipes does not modify the actual data
+types
+string pipe
+currency pipe
+decimal pipe
+date pipe
+json pipe
+
+
+Template driven forms ---> Forms become as a template and based on that structure of the forms the model is created automatically and these forms are static in nature  . <ngForm>
+Reactive Forms --->More dynamic in nature and will have build in validation and model must be created manually.
+ReactiveForms syntax
+//Formgroup represents the form 
+useForm =new FormGroup(
+{
+//FormcontrolName represents the input fields in the form
+<definition of the field in the model and also respective valiadations>
+<fieldName1> : new FormControl(
+<initial value>,<validations>)
+<fieldName2> : new FormControl(
+<initial value>,<validations>)
+);
+ 
+},
+{
+//Timing of Validation 
+updateOn:<blur,change,submit>
+}
+
+LifeCycle of Components--->
+
+1)Initialization phase---ngOnInit
+                                   AfterContentInit  
+
+2)Activation phase---onActivate
+
+3)Display (or) Viewhfh phase---AfterViewInit
+                                               AfterViewChecked
+
+4)Validation phase---ngDoCheck
+                                AfterContentChecked
+
+5)updation phase---onUpdate
+
+6)Destroy phase---onDestroy
+
+
+ng generate service Identifier is  used to inject service into a application.
+Service is class which is used to communicate with the backend api.
+@Injectable class---->Decorators
+
+
+
+App component is the master component
+
+
+
+

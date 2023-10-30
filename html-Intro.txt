@@ -1,0 +1,29 @@
+html-Hyper text markup language
+it is used for developing a web page 
+http://info.cern.ch - it is the first webpage created by Tim Berners-Lee
+html will not support programming language
+curl command is used to fetch the html file of a web page
+command stARTS WITH "&" is known as Substitution symbol in html 
+ex &copy- copyrights symbol
+   &reg-registration symbol
+   &nbsp-used to leave space
+   &trade-trademark
+SVG- scalable vector graphics which is used to draw diagrams in a webpage like square,rectangle ...etc
+W3C  manages the standards for all type of technologies
+
+CSS:
+
+<style>
+<htmltagname> attributename1:value,
+              attributename2:value,......
+              attributenameN:value
+  typeas of css-inline,internal,external
+
+Types Of Selectors:
+class,ID,element,group,attribute,index,universal
+group selector is also called as child selector
+index selectors are also called as the pseudo selector.pseudo selectors are usefull for mouse events
+
+the way of placing the elements in a webpage is known as Layout
+column,grid,float,flex
+
